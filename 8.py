@@ -1,0 +1,5 @@
+A=set(map(int,input("Multimea A: ").split()))
+B=set(map(int,input("Multimea B: ").split()))
+print('Reunirea multimilor: ', A.union(B))
+print('Intersectia multimilor: ', A.intersection(B))
+print('Diferenta multimilor: ', A.difference(B))
